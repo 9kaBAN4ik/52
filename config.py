@@ -3,8 +3,8 @@ import os
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_IDS = [int(id) for id in os.getenv("ADMIN_IDS", "").split(",") if id]
+BOT_TOKEN = os.getenv("7745514605:AAHfKFT4PlGVXhi0aMpnMmIQUVRcvpymeeE")
+ADMIN_IDS = 2025904026
 
 # Состояния для FSM
 class States:

@@ -3,7 +3,7 @@ import os
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("7745514605:AAHfKFT4PlGVXhi0aMpnMmIQUVRcvpymeeE")
+BOT_TOKEN = "7745514605:AAHfKFT4PlGVXhi0aMpnMmIQUVRcvpymeeE"
 ADMIN_IDS = 2025904026
 
 # Состояния для FSM

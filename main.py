@@ -24,7 +24,7 @@ async def main():
         db.close()
 
     # Инициализация бота и диспетчера
-    bot = Bot(token=config.BOT_TOKEN)
+    bot = Bot(token=BOT_TOKEN)
     dp = Dispatcher()
     dp.include_router(admin_router)
     dp.include_router(user_router)
